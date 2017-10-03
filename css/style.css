@@ -1,0 +1,230 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  font-family: "Source Sans Pro", Calibri, "Trebuchet MS", Helvetica, Arial, georgia, sans-serif, serif;
+  display: inline-block;
+  line-height: 1.5;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  clear: both;
+}
+
+.left{
+  float: left;
+  margin-left: 20px;
+}
+
+.right{
+  float: right;
+   margin-right: 20px;
+}
+
+.img-circle{
+  border-radius: 50% 50% 50% 50%;
+  box-shadow: 2px 2px 2px 0px #ff4500;
+}
+
+a {
+  -webkit-transition: color linear 0.3s;
+  -moz-transition: color linear 0.3s;
+  -ms-transition: color linear 0.3s;
+  -o-transition: color linear 0.3s;
+  transition: color linear 0.3s;
+  padding-bottom: 0px;
+  text-decoration: none;
+  color: #222222; }
+  a:hover {
+    padding-bottom: 5px;
+    color: #003966; }
+
+header {
+  -webkit-box-shadow: 0px 9px 7px -6px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 9px 7px -6px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0px 9px 7px -6px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0px 9px 7px -6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 9px 7px -6px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #eeeeee;
+  background-color: #ffffff;
+  display: inline-block;
+  position: relative;
+  width: 100%; 
+}
+
+header .logo {
+    position: relative;
+    margin-top: 5px; 
+  }
+  
+header .logo > img {
+      width: 120px;
+      border: 1px solid #fff; 
+  }
+
+header .site-nav {
+  margin-top: 30px;
+  padding: 10px 40px;
+  position: relative; 
+}
+
+header .site-nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+header .site-nav li:last-child {
+      margin-right: 0; 
+  }
+    
+header .site-nav li a {
+      -webkit-transition: color linear 0.3s, border-bottom 0.1s ease, padding-bottom 0.2s ease-in-out;
+      -moz-transition: color linear 0.3s, border-bottom 0.1s ease, padding-bottom 0.2s ease-in-out;
+      -ms-transition: color linear 0.3s, border-bottom 0.1s ease, padding-bottom 0.2s ease-in-out;
+      -o-transition: color linear 0.3s, border-bottom 0.1s ease, padding-bottom 0.2s ease-in-out;
+      transition: color linear 0.5s, border-bottom 0.1s ease, padding-bottom 0.4s ease-in-out;
+      font-weight: 600;
+  }
+      
+header .site-nav li a:hover {
+        border-bottom: 4px solid #ff4500; 
+  }
+
+.text-center{
+  text-align: center;
+}
+
+.site-hero {
+  display: inline-block;
+  font-size: 1.2em;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.info-section{
+  width: 60%;
+  height:100%;
+  background-color: #fff;
+  position: relative;
+  margin: 0px;  
+}
+
+
+.info-section h5{
+  width: 28%;
+  color: #fff;
+  padding: 5px;
+  margin-left: 5px;
+  background-color: #ff4500;
+  border-radius: 10% 10% 10% 10%;
+  transition: all 0.8s ease-in-out;
+}
+
+.info-section h5:hover{
+  color: #ff4500;
+  background-color: #fff;
+  transition: all 0.8s ease-in-out;
+}
+
+.info-section span{
+  font-size: 1.8em;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ff4500;
+}
+
+.info-section p{
+  margin-left: 20px;
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+.info-section li{
+   font-size: 0.8em;
+   list-style: none;
+   text-decoration: none;
+}
+
+.realtime-app{
+  width: 40%;
+  height: 100%;
+  margin: 0px;  
+}
+
+.portfolio{
+  height: 400px;
+  width: 100%;
+}
+
+.realtime-app span{
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ff4500;
+}
+
+.realtime-app span a{
+  text-decoration: none;
+}
+
+#awards{
+   font-size: 0.8em;
+   display: inline-block;
+   width: 100%;
+   background-color: #fff;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 20px;
+   border-top:1px solid #ff4500;
+}
+
+#awards div{
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+  margin:5px;
+  margin-bottom: 20px;
+}
+
+#awards img{
+  width: 250px;
+  height: 100%;
+  float: left;
+}
+
+#awards span{
+  text-align: left;
+  margin: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle-1{
+  border-radius: 10% 10% 10% 10%;
+  box-shadow: 2px 2px 2px 0px #ff4500;
+}
+
+#contact{
+  background-color: #ff4500;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#contact p{
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  display: inline-block;
+  margin: 10px;
+}
+
